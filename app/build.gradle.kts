@@ -10,6 +10,8 @@ application {
 }
 
 dependencies {
+    implementation(project(":slack"))
+
     implementation("io.ktor:ktor-server-core:$ktor_version")
     implementation("io.ktor:ktor-server-netty:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
