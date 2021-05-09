@@ -18,6 +18,7 @@ subprojects {
 
     dependencies {
         "api"(kotlin("stdlib-jdk8"))
+        "api"(kotlin("reflect"))
     }
 
     listOf("compileKotlin", "compileTestKotlin").forEach {
